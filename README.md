@@ -14,6 +14,12 @@ This paper revisits object detection models and points out that the performance 
 ## Keywords: 
 Computer Vision, Deep Learning, Object Detection, Granular Computing
 
+![stomack](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-03-16%2019.36.45.png)
+
+![S3WS](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-03-16%2019.37.43.png)
+
+![Detection Results](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-03-16%2019.38.24.png)
+
 ## Conclusion
 In this work, we identify that poor results of small objects and imbalance between positive and negative samples restrict the performance of detectors. To address these issues, MgD are proposed, which consists of MFE and S3WS modules. Both MFE and S3WS modules can be integrated into the existing methods easily. The experiments demonstrate that the performance of detectors gradually gets significant improvements by adding MFE and S3WS at an acceptable cost. Furthermore, the MgD detector outperforms all other state-of-the-art ones. The MgD does improve the contribution of small objects. Meanwhile, SwinV2-G with MFE and SW3S (AP 63.1→64.0, AP/APs 1.97→1.42) surpasses other state-of-the-art results. MgD(AP 53.9, AP/APs 1.35) greatly improves the contribution of small objects. 
 
