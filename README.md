@@ -11,8 +11,6 @@ written by · [Chen Dong](https://github.com/Alan-D-Chen) (go to [Google Schola
 ## Abstract
 ![abstract](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-12-26%2021.41.16.png)
 
-## Keywords: 
-Computer Vision, Deep Learning, Object Detection, Granular Computing
 
 ![stomack](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-03-16%2019.36.45.png)
 
