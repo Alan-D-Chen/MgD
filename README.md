@@ -21,13 +21,8 @@ Computer Vision, Deep Learning, Object Detection, Granular Computing
 ![Detection Results](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-03-16%2019.38.24.png)
 
 ## Conclusion
-In this work, we identify that poor results of small objects and imbalance between positive and negative samples restrict the performance of detectors. To address these issues, MgD are proposed, which consists of MFE and S3WS modules. Both MFE and S3WS modules can be integrated into the existing methods easily. The experiments demonstrate that the performance of detectors gradually gets significant improvements by adding MFE and S3WS at an acceptable cost. Furthermore, the MgD detector outperforms all other state-of-the-art ones. The MgD does improve the contribution of small objects. Meanwhile, SwinV2-G with MFE and SW3S (AP 63.1→64.0, AP/APs 1.97→1.42) surpasses other state-of-the-art results. MgD(AP 53.9, AP/APs 1.35) greatly improves the contribution of small objects. 
 
-But the innovation of this paper also has obvious limitations. The MFE module is mainly limited to the statistical information of independent data sets, and obviously lacks the generalization ability. When switching task scenarios, the MFE module lacks
-flexibility. The S3WS module is stacked by basic IoU functions, and does not compress the running time and memory space of each IoU function. At the same time, the performance of SW3S is subject to the combination of the performance of several different IoUs.
-
-In the future work, we will mainly solve the application of MFE module in object detection. At the same time, we should pay attention to size-different objects customarily. Size-different objects should use different detection strategies. Customized solutions should be adopted for various objects in computer vision in the future. Although the S3WS module effectively alleviates the imbalance between positive and negative samples, it does not compress the running time and memory space of each IoU function. At the same time, the performance of SW3S is subject to the combination of the performance of several different IoUs. In the future, we will mainly solve
-the problem of operating cost. We do hope that our work will play a role of cornerstone to encourage the evaluation-feedback mechanism in computer vision subtasks with less time and lighter model size.
+![conc](https://github.com/Alan-D-Chen/MgD/blob/main/pics/%E6%88%AA%E5%B1%8F2023-12-26%2021.41.46.png)
 
 
 ## Demo
